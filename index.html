@@ -10,42 +10,51 @@
   <link href="https://fonts.googleapis.com/css2?family=Poppins&family=Staatliches&display=swap" rel="stylesheet">
 </head>
 <body>
+  <!-- Essa div engloba todos os elementos da pagina-->
   <div class="page">
     <header>
       <h1>Mentoria</h1>
       <p>Preencha o formulário abaixo para<br>
         agendar a sua mentoria</p>
     </header>
-    <form id="">
+
+    <!-- dar um id ao form auxilia a usar um botão fora do formulário -->
+    <form id="my-form">
       <fieldset>
+        <!-- essa classe embrulha todos elementos do fieldset para melhor organização deles -->
         <div class="fieldset-wrapper">       
           <legend>Informações pessoais</legend>
+          
           <div class="col-2">
-            <label for="form-name">
-              Nome
-            </label>
-            <input id="form-name" type="text">
+            <!-- embrulha os elementos de um input -->
+            <div class="input-wrapper">
+              <label for="form-name">
+                Nome
+              </label>
+              <input id="form-name" type="text">
+            </div>
 
-            <label for="form-surname">
-              Sobrenome
-            </label>
-            <input id="form-surname" type="text">
+            <div class="input-wrapper">
+              <label for="form-surname">
+                Sobrenome
+              </label>
+              <input id="form-surname" type="text">
+            </div>
           </div>
           
+          <div class="input-wrapper">
             <label for="form-email">
               Email <span>(digite um email válido)</span>
             </label>
             <input id="form-email" type="email">
+          </div>
 
-            <label for="form-email">
-              Email <span>(digite um email válido)</span>
-            </label>
-            <input id="form-email" type="email">
-
+          <div class="input-wrapper">
             <label for="form-password">
               Senha <span>(mínimo de 6 caracteres)</span>
             </label>
             <input id="form-password" type="password" minlength="6">
+          </div>
         </div>
       </fieldset>
 
