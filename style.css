@@ -127,18 +127,46 @@ span{
   width: 100%;
 }
 
+.mentorship-wrapper legend{
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 34px;
+  border: 0;
+  padding: 0;
+  margin-bottom: 8px;
+}
+
 .col-3{
   display: flex;
-  gap: 10px;
+  gap: 10px; 
+  margin-bottom: 16px;
 }
 
 .col-3  > div:nth-child(1){
   width: 100%;
 }
 
-.col-3 label{
+footer{
+  width: 750px;
+  padding: 52px 71px;
+  background: #535971;
+  border-radius: 0 0 20px 20px;
+  margin-bottom: 140px;
+}
+
+footer button{
+  width: 608px;
+  height: 55.65px;
+
+  background: #FF5374;
+  border-radius: 20px;
+
   font-family: 'Staatliches';
   font-weight: 400;
   font-size: 20px;
-  line-height: 34px;
+  line-height: 26px;
+}
+
+button:hover{
+  background: #ff2752;
 }
