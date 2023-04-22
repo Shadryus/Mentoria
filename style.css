@@ -146,6 +146,10 @@ span{
   width: 100%;
 }
 
+.col-3 input{
+  font-family: 'Staatliches';;
+}
+
 footer{
   width: 750px;
   padding: 52px 71px;
@@ -169,4 +173,8 @@ footer button{
 
 button:hover{
   background: #ff2752;
+}
+
+input:invalid{
+  border: 1px solid #FF1010;
 }
